@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { TypeAnimation } from 'react-type-animation'
 import aboutPhoto from '../img/about.jpg'
+import DirectorPhoto from '../img/director.jpg'
 import {
   ArrowDown,
   ArrowUpRight,
@@ -331,13 +332,13 @@ function Hero() {
           <div className="absolute -inset-4 rounded-full border border-white/[0.05]" />
           <div className="glass relative aspect-[4/5] overflow-hidden rounded-[2rem] p-3">
             <img
-              src={aboutPhoto}
+              src={DirectorPhoto}
               alt="Ali Haji Mazdarani working on a production set"
               className="h-full w-full rounded-[1.45rem] object-cover object-[49%_54%] grayscale-[0.12]"
             />
             <div className="absolute inset-3 rounded-[1.45rem] bg-gradient-to-t from-ink via-transparent to-transparent" />
             <div className="absolute bottom-7 left-7 right-7">
-              <div className="flex items-center justify-between">
+              <div className="flex mb-5 items-center justify-between">
                 <div>
                   <p className="text-[10px] uppercase tracking-[0.2em] text-teal">Current frame</p>
                   <p className="mt-1 font-display text-sm font-semibold text-white">On production</p>

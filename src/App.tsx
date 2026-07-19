@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { TypeAnimation } from 'react-type-animation'
 import aboutPhoto from '../img/about.jpg'
-import DirectorPhoto from '../img/director.jpg'
+import DirectorPhoto from '../img/Director.jpg'
 import {
   ArrowDown,
   ArrowUpRight,
